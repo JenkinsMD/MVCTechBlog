@@ -1,0 +1,32 @@
+[
+  {
+    "comment": "Sandstorm is the realest",
+    "user_id": 1,
+    "post_id": 1
+  },
+  {
+    "comment": "keep that doctor away",
+    "user_id": 3,
+    "post_id": 2
+  },
+  {
+    "comment": "red delecious or gala?",
+    "user_id": 1,
+    "post_id": 2
+  },
+  {
+    "comment": "left up down left right left up",
+    "user_id": 1,
+    "post_id": 3
+  },
+  {
+    "comment": "can you even shuffle?",
+    "user_id": 2,
+    "post_id": 3
+  },
+  {
+    "comment": "blahblahblah",
+    "user_id": 2,
+    "post_id": 1
+  }
+]

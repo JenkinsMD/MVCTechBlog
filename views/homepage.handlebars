@@ -1,0 +1,19 @@
+<!-- Loop over each object in the projects array -->
+<h2>
+      Available Posts:
+</h2>
+{{#each blogs as |blog| }}
+<div class="row mb-4 project">
+  <div class="col-md-5 cardBack">
+    
+    <a type="submit" class="btn btn-md btn-secondary text-align-center" value="View" href="/blogroutes/{{blog.id}}">{{blog.title}}</a>
+    <p><sub>by {{blog.user.name}} on {{format_date blog.date_created}}</sub> </p>
+     <div class="col-md-7">
+        <p>
+          {{blog.content}}
+        </p>
+     </div>
+  </div>
+ 
+</div>
+{{/each}}

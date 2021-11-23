@@ -1,0 +1,50 @@
+<div class="row accentBack">
+  <div class="col-auto">
+    <h2>Welcome, {{blogsDash.0.user.name}} !</h2>
+  </div>
+</div>
+
+<div class="row mt-4 ">
+  <div class="col-md-6 cardBack">
+    <h3>Create a New Post:</h3>
+
+    <form class="form new-post-form">
+      <div class="form-group">
+        <label for="post-name">Title:</label>
+        <input class="form-input" type="text" id="post-name" name="post-name" />
+      </div>
+      <div class="form-group">
+        <label for="post-content">Content:</label>
+        <textarea class="form-input" id="post-content" name="post-content"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-secondary">Create</button>
+      </div>
+    </form>
+  </div>
+
+  {{#if blogsDash.length}}
+  <div class="col-md-6 project-list cardBack ">
+    <h3>Your Posts:</h3>
+
+    {{#each blogsDash as |frog|}}
+    <div class="row mb-2 ">
+      <div class="col-md-8 ">
+         <a  class="btn btn-md btn-secondary text-align-center" value="View" href="/blogroutes/{{frog.id}}">{{frog.title}}</a>
+  
+      </div>
+      <div class="col-md-4">
+        Content: {{frog.content}}
+           <button  class="btn1 btn-secondary delete-post" data-id="{{frog.id}}">Delete</button>
+      </div>
+      <div class="col-md-4 ">
+        
+      </div>
+    </div>
+    {{/each}}
+  </div>
+   {{/if}}
+  
+</div>
+
+<script src="./js/dashboard.js"></script>

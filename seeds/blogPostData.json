@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Music",
+    "content": "Music is nice. I love it",
+    "user_id": 1
+  },
+  {
+    "title": "Apples",
+    "content": "Apples are cool. I love them",
+    "user_id": 1
+  },
+  {
+    "title": "Dancing",
+    "content": "Dance Dance Revolution",
+    "user_id": 2
+  },
+  {
+    "title": "Sports",
+    "content": "Sports are the best. I love them",
+    "user_id": 2
+  },
+  {
+    "title": "Candy",
+    "content": "candy is niceeeee. i love it",
+    "user_id": 3
+  },
+  {
+    "title": "Vegetables",
+    "content": "Yummmmmmmmmmmmmmmmmmy",
+    "user_id": 3
+  }
+]

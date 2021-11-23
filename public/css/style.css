@@ -1,0 +1,164 @@
+/* general styling */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+/* css variables */
+:root{
+    --accentColor:#db87e2;
+    --lightColor: rgba(255, 255, 255, 0.63);
+    --darkColor: #eebade;
+  
+ 
+    --accentFont: 'Lobster', cursive;
+    --mainFont: arial, Helvetica, sans-serif;
+}
+
+#header {
+    font-family: var(--accentFont);
+    color: var(--lightColor);
+}
+
+#navbar {
+    background-color: var(--accentColor);
+}
+
+nav.div.ul.li {
+    font-family: var(--mainFont);
+    color: var(--lightColor);
+}
+
+.headerTitle {
+    font-family: var(--accentFont);
+}
+
+/* .box {
+    background-color: lightslategray;
+    padding: 5%;
+    border-radius: 25px;
+}
+ */
+
+
+/* .box2{
+    padding: 5%;
+    background-color: var(--darkColor);
+}
+.box3{
+    padding-top: 10%;
+} */
+
+#background {
+    background-color: var(--darkColor);
+}
+
+.accentText {
+    font-family: var(--accentFont);
+}
+
+/* .box4 {
+    padding-top: 10%;
+} */
+
+/* navbar button styling */
+.buttonStyle {
+    background: none;
+	color: var(--accentColor);
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+main {
+    background-color: var(--darkColor);
+}
+/* 
+.box5{
+    box-shadow: 0 5px 10px rgba(192, 193, 204, 0.2);
+    margin: 1em;
+    padding: 5%;
+    border-radius: 25px;
+}
+
+.card {
+    margin: 2em;
+    padding: 5%;
+}
+
+.card-title {
+    background-color: var(--accentColor);
+    font-family: var(--accentFont);
+    color: var(--lightColor);
+}
+
+.card.h3.ul.li.p{
+    font-family: var(--mainFont);
+}  */
+
+button {
+    position: relative;
+    float: right;
+    color: white;
+    margin-right: 20px;
+}
+
+button:hover {
+    opacity: 1;  
+}
+
+.btn1 {
+    background-color: var(--accentColor);
+}
+
+.btn2{
+    background-color: var(--darkColor);
+}
+
+
+li{
+    list-style-type: none;
+}
+
+.removeHref{
+    text-decoration: none;
+}
+
+.link {
+	text-decoration: none;
+	color:white;
+}
+
+.link:hover{
+    color: white;
+}
+
+.cardBack{
+    background-color: var(--lightColor);
+}
+
+.accentBack{
+    background-color: var(--accentColor);
+}
+
+/*   
+  @keyframes test {
+
+    0%   {color:red;}
+    10%  {color: orange;}
+    20%  {color:yellow;}
+    30%  {color:yellowgreen;}
+    40%  {color:green;}
+    50% {color:blue;}
+    60% {color:indigo;}
+    70% {color:violet;}
+    80% {color:purple;}
+    90% {color:pink;}
+    100% {color:palevioletred;}
+
+} */
+
+/* comment styling */
