@@ -13,13 +13,7 @@ const PORT = process.env.PORT || 3001;
 
 // Set up Handlebars.js engine with custom helpers
 const hbs = exphbs.create({ helpers });
-// const hbs = exphbs.create({
-//     helpers: { 
-//       format_dat: date => {
-//         return `${date.getMonth() + 1}/ ${date.getDate()}/${date.getFullYear()}`
-//       }
-//     }
-//   });
+
 
 const sess = {
   secret: 'Super secret secret',
