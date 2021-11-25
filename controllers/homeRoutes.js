@@ -27,6 +27,7 @@ router.get('/', withAuth, async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
+  return
 });
 
 //get single post w/ comments
@@ -52,6 +53,7 @@ router.get('/blogroutes/:id', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
+  return
 });
 
 router.get('/dashboard',withAuth, async (req, res) => {
@@ -89,7 +91,7 @@ router.get('/dashboard',withAuth, async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
- 
+ return
 });
 
 

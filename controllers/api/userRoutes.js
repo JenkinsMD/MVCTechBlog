@@ -34,6 +34,7 @@ router.post('/login', async (req, res) => {
     console.log('ERR', err)
     res.status(400).json(err);
   }
+  return
 });
 
 // Log out user route (api/user/logout)
@@ -62,6 +63,7 @@ router.post('/', async (req, res) => {
     console.log('ERR', err)
     res.status(400).json(err);
   }
+  return
 });
 
 
